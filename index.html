@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no"
+    />
+    <title>CHROMABLAST</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div id="hud"></div>
+      <div id="fxl"></div>
+      <canvas id="c" width="240" height="208"></canvas>
+      <div id="pad">
+        <div id="dp">
+          <span></span><button class="pb" data-k="ArrowUp">▲</button
+          ><span></span><button class="pb" data-k="ArrowLeft">◀</button
+          ><span></span><button class="pb" data-k="ArrowRight">▶</button
+          ><span></span><button class="pb" data-k="ArrowDown">▼</button
+          ><span></span>
+        </div>
+        <div id="ac">
+          <button class="pb" data-k="Escape">II</button
+          ><button class="pb" data-k="KeyZ">Z</button
+          ><button class="pb" data-k="Space">BOMB</button>
+        </div>
+      </div>
+      <div id="ov"></div>
+    </div>
+    <div id="toast"></div>
+    <script src="game.js"></script>
+  </body>
+</html>
