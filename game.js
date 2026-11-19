@@ -1154,7 +1154,7 @@ function menu() {
   const a = avail();
   ovl(`<h1 id="logo">${[..."CHROMABLAST"].map((c, i) => `<span style="--i:${i}">${c}</span>`).join("")}</h1><p>Place. Escape. Explode. Dominate.</p><p>LV ${lv()}  COINS ${SV.coins}</p>
 <button onclick="start(0)">CLASSIC ARENA (BEST ${SV.hi[0]})</button><button onclick="start(1)">SURVIVAL (BEST ${SV.hi[1]})</button><button onclick="start(2)">TIME ATTACK (BEST ${SV.hi[2]})</button>
-<button onclick="arena()">ARENA: ${TH[a.includes(SV.arena) ? SV.arena : 0].n} (${a.length}/5)</button><button onclick="how()">HOW TO PLAY</button><button onclick="sett('menu()')">SETTINGS</button>`);
+<button onclick="arena()">ARENA: ${TH[a.includes(SV.arena) ? SV.arena : 0].n} (${a.length}/5)</button><button onclick="how()">HOW TO PLAY</button><button onclick="sett('menu()')">SETTINGS</button><p class="developer-credit">DEVELOPED BY: RAFAEL JAYCIEH J. DAYOT</p>`);
 }
 function arena() {
   ia();

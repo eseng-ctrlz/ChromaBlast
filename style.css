@@ -179,3 +179,9 @@ input[type="range"] {
     animation: none;
   }
 }
+.developer-credit {
+  margin: 4px 0 0;
+  color: var(--cy);
+  font-size: 10px;
+  letter-spacing: 1px;
+}
